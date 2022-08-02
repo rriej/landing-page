@@ -11,8 +11,12 @@ body {
     
 }
 
+/*  HEADER NAVIGATION */
+
 .header {
     background-color: #1F2937;
+    
+    
 }
 
 .header h2 {
@@ -31,3 +35,56 @@ body {
     font-weight: bold;
     color: #F9FAF8;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 10px 10%;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.right-list {
+   display: flex;
+   gap: 20px;
+}
+
+/*  HEADER BODY */
+
+.header-body {
+    margin: 100px 10%;
+    display: flex;
+    height: 200px;   
+}
+
+.left-section {
+    flex: 1 1 0;
+    
+}
+
+.right-section {
+    flex: 1 1 0;
+    background-color: gray;
+    
+}
+
+.right-section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 546px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
