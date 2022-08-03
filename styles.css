@@ -81,6 +81,13 @@ ul {
     height: 200px;
 }
 
+.header-body button {
+    background-color:#3882F6;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+}
 
 
 
