@@ -77,7 +77,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 546px;
+    width: 768px;
     height: 200px;
 }
 
@@ -88,6 +88,55 @@ ul {
     color: white;
     border: none;
 }
+
+/* SECTION ONE */
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    
+}
+
+.card-section-text {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 36px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px 25%;
+    gap: 40px;
+    
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: solid ;
+    border-radius: 10px;
+    
+}
+
+.card-subtext {
+    
+    margin-top: 210px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+
+
+
 
 
 
