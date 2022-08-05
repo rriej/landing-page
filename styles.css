@@ -54,12 +54,18 @@ ul {
    gap: 20px;
 }
 
-/*  HEADER BODY */
+/*  HEADER  */
 
 .header-body {
     margin: 100px 10%;
     display: flex;
     height: 200px;   
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .left-section {
@@ -83,6 +89,7 @@ ul {
 
 .header-body button {
     background-color:#3882F6;
+    margin-top: 10px;
     border-radius: 8px;
     padding: 5px 20px;
     color: white;
@@ -160,6 +167,47 @@ ul {
     font-weight: bold;
     font-size: 25px;
 }
+
+/* SIGN UP */
+
+
+.signup-wrapper {
+
+    display: flex;
+    margin: 100px 25%;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.signup-left {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.signup-right {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.signup-button {
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: white;
+    border: 2px solid white;
+    background-color:#3882F6;
+}
+
+.bigger {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.smaller {
+    color: white;
+}
+
 
 
 
