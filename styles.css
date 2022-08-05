@@ -96,7 +96,7 @@ a {
     border: none;
 }
 
-/* SECTION ONE */
+/* CARD SECTION */
 
 .cards-container {
     display: flex;
@@ -205,6 +205,27 @@ a {
 }
 
 .smaller {
+    color: white;
+}
+
+/* FOOTER */
+
+.footer-wrapper {
+    
+    height: 100px;
+    background-color: #1F2937;
+
+}
+
+.copy {
+    margin: 0 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
     color: white;
 }
 
